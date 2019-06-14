@@ -1,8 +1,13 @@
 <div class="row">
   <h4>Petflix Originals</h4>
-  <!-- <div *ngFor="let video in videos" >
+   <div *ngFor="let video of videos" >
     <div class="card">
       <p>{{video.title}}</p>
+      <div class="content">
+        <div class="overlay">
+          <p>{{video.description}}</p>
+        </div>
+      </div>
     </div>
-  </div> -->
+  </div> 
 </div>

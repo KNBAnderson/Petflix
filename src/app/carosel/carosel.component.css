@@ -13,3 +13,38 @@
     position: relative;
     backface-visibility: hidden;
 }
+
+.content {
+    width: 200%;
+    height: 200%;
+    transform: scale(.5) translateZ(0px);
+    transform-origin: top left;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    opacity: 0;
+    touch-action: none;
+    transition: opacity 1s;
+  }
+  
+  .card:hover {
+    transform: scale(2);
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+    touch-action: auto;
+    transform: scale(1)
+  }
+
+  .row {
+      width: 75vh;
+      height: 300px;
+      overflow-y: scroll;
+  }
