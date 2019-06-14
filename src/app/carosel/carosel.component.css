@@ -1,0 +1,15 @@
+.card {
+    width: 200px;
+    height: 120px;
+    border: 1px solid black;
+    background-image: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2fb-g_V-UT4%2Fhqdefault.jpg&f=1');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s transform;
+    transform-origin: top center;
+    float: left;
+    margin: 10px;
+    position: relative;
+    backface-visibility: hidden;
+}

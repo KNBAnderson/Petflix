@@ -7,6 +7,7 @@ import { MainVideoComponent } from './main-video/main-video.component';
 import { CaroselComponent } from './carosel/carosel.component';
 import { VideoThumbnailComponent } from './video-thumbnail/video-thumbnail.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     MainVideoComponent,
     CaroselComponent,
     VideoThumbnailComponent,
-    NavBarComponent
+    NavBarComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
