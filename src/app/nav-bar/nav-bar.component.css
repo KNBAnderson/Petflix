@@ -2,7 +2,16 @@
     float: right;
 }
 
-a {
+nav a {
     text-decoration: none;
     padding: 15px;
+    
+}
+
+a.logo {
+    font-size: 220%;
+}
+
+nav a:not(.logo) {
+    color: inherit;
 }
