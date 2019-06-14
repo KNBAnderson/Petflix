@@ -1,13 +1,13 @@
 <nav>
   <a href="#" class="logo">Petflix</a>
-  <a href="#">Home</a>
-  <a href="#">TV Shows</a>
-  <a href="#">Movies</a>
-  <a href="#">Recently Added</a>
-  <a href="#">My List</a>
+  <a href="#" *ngIf="browse">Home</a>
+  <a href="#" *ngIf="browse">TV Shows</a>
+  <a href="#" *ngIf="browse">Movies</a>
+  <a href="#" *ngIf="browse">Recently Added</a>
+  <a href="#" *ngIf="browse">My List</a>
 
-  <a href="#" class="right">AvatarImg</a>
-  <a href="#" class="right">DVD</a>
-  <a href="#" class="right">Notifications</a>
-  <a class="right" href="#">Search</a>
+  <a href="#" class="right" *ngIf="browse">AvatarImg</a>
+  <a href="#" class="right" *ngIf="browse">DVD</a>
+  <a href="#" class="right" *ngIf="browse">Notifications</a>
+  <a class="right" href="#" *ngIf="browse">Search</a>
 </nav>
