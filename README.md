@@ -1,7 +1,7 @@
 # Petflix
 
 #### By _**Katlin Anderson**_
-
+_https://knbanderson.github.io/Petflix/_
 ## Description
 
 _A Netflix clone using Angular._
