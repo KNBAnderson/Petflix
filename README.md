@@ -1,27 +1,52 @@
 # Petflix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+#### By _**Katlin Anderson**_
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_A Netflix clone using Angular._
 
-## Code scaffolding
+## Setup/Installation Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* _$ git clone https://github.com/KNBAnderson/Petflix;_
+* _$ npm install;_
+* _$ ng serve;_
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Specs
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| The wesite will show a splash page to pick which pet is watching | - | - |
+| The website will have a main video page | - | - |
+| The splash page will allow the user to edit pet accounts | - | - |
+| The splash page will allow the user to add new pet accounts | - | - |
+| Clicking on a pet account will lead you to that pet's main page | click "Fido" | /browse |
+| The main video page will have a large vidoe on the top half of the page | - | - |
+| The main video page will have rows of video thumbails with a carousel effect | - | - |
+| Clicking on a video thumbnail will take the user to full page yourtubr video | - | - |
+| Hovering over a video thumbnail will enlarge it and show more details | - | - |
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation Requirements
+* Run in browser
 
-## Running end-to-end tests
+## Known Bugs
+There are no known bugs.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies Used
 
-## Further help
+_HTML_
+_CSS_
+_TypeScript_
+_Angular_
+_Node_
+_Bootstrap_
+_Jasmine_
+_Linter_
+_Babel_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+
+*This software is licensed under the GPL license.*
+
+Copyright (c) 2019 **_Katlin Anderson_**
