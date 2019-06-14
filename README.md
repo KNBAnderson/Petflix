@@ -5,13 +5,14 @@
 ## Description
 
 _A Netflix clone using Angular._
+_This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2_
 
 ## Setup/Installation Requirements
 
 * _$ git clone https://github.com/KNBAnderson/Petflix;_
-* _$ npm install;_
+*_$ ng build;_
 * _$ ng serve;_
-
+*_Navigate to `http://localhost:4200/`_
 
 ## Specs
 | Behavior | Input | Output |
