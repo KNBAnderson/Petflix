@@ -1,12 +1,10 @@
-<div class="row">
-  <h4>Cat Capers</h4>
-   <div *ngFor="let video of catVideos" class="container">
-    <div class="card">
-      <p>{{video.title}}</p>
-      <div class="content">
-        <div class="overlay">
-          <p>{{video.description}}</p>
-        </div>
+<div *ngFor="let object of objectArray" class="row">
+  <h4>{{object.title}}</h4>
+   <div *ngFor="let video of object.videos" class="card {{video.category}}">
+    <p>{{video.title}}</p>
+    <div class="content">
+      <div class="overlay">
+        <p>{{video.description}}</p>
       </div>
     </div>
   </div> 

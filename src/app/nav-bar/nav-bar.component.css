@@ -14,3 +14,7 @@ a.logo {
 nav a:not(.logo) {
     color: inherit;
 }
+
+.cat {
+    border: 3px solid red;
+}

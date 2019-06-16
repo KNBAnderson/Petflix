@@ -10,7 +10,7 @@
     transition: 0.5s transform;
     transform-origin: top left;
     float: left;
-    margin: 10px;
+    margin: 5px;
     position: relative;
     backface-visibility: hidden;
     text-shadow: 1px 1px 2px black;
@@ -36,13 +36,13 @@
 }
   
 .card:hover {
-    transform: scale(2);
+    transform: scale(1.7);
 }
 
  
-.container:hover ~ .container { 
-    transition: .5s transform;
-    transform: translate3d(200px, 0, 0); 
+.card:hover ~ .card { 
+    /* transition: .5s transform; */
+    transform: translate3d(140px, 0, 0); 
 }
 
   
@@ -53,8 +53,25 @@
 }
 
 .row {
-      height: 300px;
+      height: 200px;
       width: 95vw;
       margin: auto;
-      /* overflow-x: scroll; */
+      overflow-x: visible;
+      touch-action: pan-y;
+}
+
+.row:hover {
+    height: 200px;
+    transition: 1s;
+}
+
+p {
+    margin-top: 5px;
+    margin-right: 5px;
+    position: absolute;
+}
+
+.overlay p {
+    position: absolute;
+    bottom: 0;
 }
