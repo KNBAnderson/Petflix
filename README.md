@@ -27,9 +27,9 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 ```
   export const masterFirebaseConfig = {
     apiKey: XXXX,
-    authDomain: "bottled-air-marketplace.firebaseapp.com",
-    databaseURL: "https://bottled-air-marketplace.firebaseio.com",
-    projectId: "bottled-air-marketplace",
+    authDomain: "XXXX.firebaseapp.com",
+    databaseURL: "https://XXX.firebaseio.com",
+    projectId: "XXXX",
     storageBucket: "",
     messagingSenderId: XXXX,
     appId: XXXX
