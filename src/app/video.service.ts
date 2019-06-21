@@ -11,10 +11,11 @@ export class VideoService {
   videos: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
     this.videos = database.list('videos');
+    console.log(this.videos);
   }
 
   getVideos() {
-    return VIDEOS;
+    return this.videos;
   }
 }
 
