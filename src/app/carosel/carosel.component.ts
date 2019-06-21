@@ -14,11 +14,14 @@ import { VideoService } from '../video.service';
 
 export class CaroselComponent implements OnInit {
   videos: Object[];
+  userAvatar: string;
   
-  constructor(private router: Router, private videoService: VideoService) {}
+  constructor(private router: Router, private videoService: VideoService, private userService: UserService) {}
 
   ngOnInit() {
     this.videos = this.videoService.getVideos();
-    console.log(this.videos);
+    // this.userAvatar = this.userService.getUsers()[1].avatar;
+    // console.log(this.userAvatar);
   }
+
 }

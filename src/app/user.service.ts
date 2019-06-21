@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { USERS } from './mock-users';
 
 @Injectable({
   providedIn: 'root'
@@ -6,4 +7,8 @@ import { Injectable } from '@angular/core';
 export class UserService {
 
   constructor() { }
+
+  getUsers() {
+    return USERS;
+  }
 }
