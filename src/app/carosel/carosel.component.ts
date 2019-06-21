@@ -13,7 +13,7 @@ import { VideoService } from '../video.service';
   providers: [VideoService, UserService]
 })
 export class CaroselComponent implements OnInit {
-  videos: Video[];
+  videos: Object[];
   
   constructor(private router: Router, private videoService: VideoService, private userService: UserService) {}
 
