@@ -9,9 +9,9 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 })
 export class VideoService {
   videos: FirebaseListObservable<any[]>;
+  
   constructor(private database: AngularFireDatabase) {
     this.videos = database.list('videos');
-    console.log(this.videos);
   }
 
   getVideos() {
