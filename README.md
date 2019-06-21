@@ -10,8 +10,33 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
 ## Setup/Installation Requirements
 
 * _$ git clone https://github.com/KNBAnderson/Petflix;_
-*_$ ng build;_
-* _$ ng serve;_
+* _Create an account at https://firebase.google.com/_
+* _On Firebase, create a project called bottled-air-marketplace_
+* _Create a realtime database within the project_
+* _Change the rules of the database to_
+```
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+```
+* _Create file in src/app/api-keys.ts_
+* _Add this code to the new file. Your personal keys can be found in your projects settings_
+```
+  export const masterFirebaseConfig = {
+    apiKey: XXXX,
+    authDomain: "bottled-air-marketplace.firebaseapp.com",
+    databaseURL: "https://bottled-air-marketplace.firebaseio.com",
+    projectId: "bottled-air-marketplace",
+    storageBucket: "",
+    messagingSenderId: XXXX,
+    appId: XXXX
+};
+```
+* _$ npm install;_
+* _$ ng serve
 *_Navigate to `http://localhost:4200/`_
 
 ## Specs
