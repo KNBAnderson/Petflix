@@ -1,5 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Roboto|Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Palanquin+Dark&display=swap');
 
 body {
     background-color: #022b3a;
@@ -9,10 +8,10 @@ body {
 
 h1, .btn {
     color: white;
-    font-family: 'Squada One', cursive;
+    font-family: 'Palanquin Dark', cursive;
 }
 
 .logo {
     color: #d33f49;
-    font-family: 'Squada One', cursive;
+    font-family: 'Palanquin Dark', cursive;
 }

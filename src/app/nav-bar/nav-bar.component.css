@@ -8,7 +8,7 @@ nav a {
 }
 
 a.logo {
-    font-size: 180%;
+    font-size: 140%;
 }
 
 nav a:not(.logo) {
