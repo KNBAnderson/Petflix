@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Video } from './video';
+import { VIDEOS } from './mock-videos';
 
 
 @Injectable({
@@ -8,6 +9,10 @@ import { Video } from './video';
 export class VideoService {
 
   constructor() { }
+
+  getVideos() {
+    return VIDEOS;
+  }
 }
 
 
