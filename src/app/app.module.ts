@@ -9,6 +9,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FormsModule } from '@angular/forms';
+import { SplashComponent } from './splash/splash.component';
 //import { routing } from './app.routing';
 //import { HttpModule } from '@angular/http';
 
@@ -25,7 +26,8 @@ export const firebaseConfig = {
     AppComponent,
     CaroselComponent,
     NavBarComponent,
-    UserComponent
+    UserComponent,
+    SplashComponent
   ],
   imports: [
     BrowserModule,
