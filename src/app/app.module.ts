@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CaroselComponent } from './carosel/carosel.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -10,7 +9,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FormsModule } from '@angular/forms';
 import { SplashComponent } from './splash/splash.component';
-//import { routing } from './app.routing';
+import { AppRoutingModule } from '../app/app-routing.module';
 //import { HttpModule } from '@angular/http';
 
 
@@ -33,7 +32,7 @@ export const firebaseConfig = {
     BrowserModule,
     FormsModule,
     //HttpModule,
-    //routing,
+    AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     AppRoutingModule
