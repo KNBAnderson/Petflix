@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Palanquin+Dark&display=swap');
 
+@font-face { font-family: Bebas; src: url(assets/BebasNeue-Regular.ttf) format("opentype"); }
+
 body {
     background-color: #022b3a;
     color: #bfdbf7;
@@ -8,10 +10,10 @@ body {
 
 h1, .btn {
     color: white;
-    font-family: 'Palanquin Dark', cursive;
+    font-family: 'Bebas', cursive;
 }
 
 .logo {
     color: #d33f49;
-    font-family: 'Palanquin Dark', cursive;
+    font-family: 'Bebas', cursive;
 }

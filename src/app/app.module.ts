@@ -5,11 +5,13 @@ import { CaroselComponent } from './carosel/carosel.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UserComponent } from './user/user.component';
 import { masterFirebaseConfig } from './api-keys';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule} from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 import { SplashComponent } from './splash/splash.component';
 import { AppRoutingModule } from '../app/app-routing.module';
+import { Observable } from 'rxjs';
+//import { routing } from './app.routing';
 //import { HttpModule } from '@angular/http';
 
 
