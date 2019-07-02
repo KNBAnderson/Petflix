@@ -4,7 +4,7 @@ import { UserService } from '../user.service';
 import { Router } from '@angular/router';
 import { User } from './../user';
 import { VideoService } from '../video.service';
-import { FirebaseListObservable } from 'angularfire2/database';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-carosel',
@@ -14,7 +14,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
 })
 
 export class CaroselComponent implements OnInit {
-  videos: FirebaseListObservable<any[]>;
+  videos: Observable<any[]>;
   userAvatar: string;
   constructor(private router: Router, private videoService: VideoService, private userService: UserService) {}
   
