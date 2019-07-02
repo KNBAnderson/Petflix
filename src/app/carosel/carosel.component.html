@@ -1,4 +1,4 @@
-<div *ngFor="let object of videos" class="row">
+<div *ngFor="let object of videos | async" class="row">
   <h4>{{object.title}}</h4>
    <div *ngFor="let video of object.videos" class="card {{video.category}}">
     <p>{{video.title}}</p>

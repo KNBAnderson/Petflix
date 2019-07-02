@@ -5,6 +5,21 @@ import { AppComponent } from './app.component';
 import { CaroselComponent } from './carosel/carosel.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UserComponent } from './user/user.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule} from '@angular/fire/database';
+import { FormsModule } from '@angular/forms';
+import { Observable } from 'rxjs';
+//import { routing } from './app.routing';
+//import { HttpModule } from '@angular/http';
+
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -15,6 +30,11 @@ import { UserComponent } from './user/user.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    //HttpModule,
+    //routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
     AppRoutingModule
   ],
   providers: [],
